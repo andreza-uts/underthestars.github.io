@@ -1,41 +1,37 @@
-- id: price_1Nd7UFGzHckhqGK0nycNXgzZ
-  group_size: couple - 60 minutes 
-  price: $195
-  filter: voucher
 - id: price_1Nd7VGGzHckhqGK0MpoKlx4n
   group_size: 2 people - 90 minutes 
-  price: $235
+  price: $350
   filter: voucher
 - id: price_1Nd7bcGzHckhqGK0KnnGVRO0
-  group_size: 3 people - 90 minutes 
-  price: $265
-  filter: voucher
-- id: price_1Nd7hjGzHckhqGK0JgEIzAJe
-  group_size: 4 people - 90 minutes 
-  price: $295
-  filter: voucher
-- id: price_1Nd7ilGzHckhqGK0JlhTISJ9
-  group_size: 5 people - 90 minutes 
-  price: $325
-  filter: voucher
-- id: price_1Nd7kbGzHckhqGK0YmyHS0Tn
-  group_size: 6 people - 90 minutes 
-  price: $355
-  filter: voucher
-- id: price_1Nd7lHGzHckhqGK0mYAiVQ7W
-  group_size: 7 people - 90 minutes 
-  price: $385
-  filter: voucher
-- id: price_1Nd7m4GzHckhqGK0zvr4XRGB
-  group_size: 8 people - 90 minutes 
+  group_size: 3 people  
   price: $415
   filter: voucher
+- id: price_1Nd7hjGzHckhqGK0JgEIzAJe
+  group_size: 4 people  
+  price: $480
+  filter: voucher
+- id: price_1Nd7ilGzHckhqGK0JlhTISJ9
+  group_size: 5 people 
+  price: $545
+  filter: voucher
+- id: price_1Nd7kbGzHckhqGK0YmyHS0Tn
+  group_size: 6 people 
+  price: $610
+  filter: voucher
+- id: price_1Nd7lHGzHckhqGK0mYAiVQ7W
+  group_size: 7 people 
+  price: $675
+  filter: voucher
+- id: price_1Nd7m4GzHckhqGK0zvr4XRGB
+  group_size: 8 people 
+  price: $740
+  filter: voucher
 - id: price_1Nd7meGzHckhqGK09Bw8ebsf
-  group_size: 9 people - 90 minutes 
-  price: $445
+  group_size: 9 people 
+  price: $805
   filter: voucher
 - id: price_1Nd7npGzHckhqGK0jRKhS9ho
-  group_size: 10 people - 90 minutes 
-  price: $475
+  group_size: 10 people 
+  price: $870
   filter: voucher  
 

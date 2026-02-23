@@ -41,27 +41,27 @@ title: Book Us | Astronomy Experiences under the Wairarapa's Dark Sky
             </h4>
             <p>
               Our standard experiences are for private groups and are 90 minutes in duration. This includes naked-eye presentation, celestial navigation, telescope viewing and Q&A. <br>
-              Prices start at a group size of two for NZ$235 (you can book for one person at this base price) 
-              After the base price, each extra person will be only $30. <br>
+              Prices start at a group size of two for NZ$350 (you can book for one person at this base price) 
+              After the base price, each extra person will be only $65. <br>
               
             </p>               
             {% for item in site.data.store %}
               {% if item.filter == 'voucher' %}
-                {% if item.id != 'price_1Nd7UFGzHckhqGK0nycNXgzZ' %}  
-                  <div class="well well-sm">{{item.group_size}} - {{item.price}}</div>    
+                {% if item.id == 'price_1Nd7VGGzHckhqGK0MpoKlx4n' %}  
+                  <div class="well well-sm">{{item.group_size}} - {{item.price}}</div>
+                  <span>Additional people $65 pp</span>    
+                {% endif %}
+                {% if item.id != 'price_1Nd7VGGzHckhqGK0MpoKlx4n' %}
+                  <div class="well well-sm">{{item.group_size}} - {{item.price}}</div>
                 {% endif %}
               {% endif %}
             {% endfor %}           
              <p></p>
-             <p class="text-blue">
-              We offer a special couples experience at a shorter duration of one hour. This is for any two 
-              people who would like to do an experience together - $195
-            </p>
             <p>
               Children under 12 are free and do not count towards your group numbers (Please notify us if you expect more than 2 children) 
             </p>            
             
-            <h2 class="mt-6 mb-2">
+            <!-- <h2 class="mt-6 mb-2">
               Is this a gift for someone else?
             </h2>
 
@@ -73,7 +73,7 @@ title: Book Us | Astronomy Experiences under the Wairarapa's Dark Sky
             <p>
               * Vouchers are valid for two years and must be redeemed within the
               Wairarapa.
-            </p>
+            </p> -->
 
           </div>
         </div>
